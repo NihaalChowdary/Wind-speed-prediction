@@ -1,6 +1,17 @@
 
 # Wind Power Forecasting using ANN and RNN with a Cascading Approach
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Problem Statement](#problem-statement)
+3. [Publication](#publication)
+4. [Dataset](#dataset)
+5. [Approach](#approach)
+6. [Results](#results)
+7. [Usage](#usage)
+
+
 ## Overview
 This repository contains the code and resources for forecasting wind power potential using a **Cascading Approach** with **Artificial Neural Network (ANN)** and **Recurrent Neural Network (RNN)** models. This novel cascading method improves prediction accuracy compared to traditional approaches. The project focuses on predicting wind speed and estimating Wind Power Density (WPD) in the Anantapur region, leveraging meteorological data.
 
@@ -32,11 +43,11 @@ The cascading method outperformed traditional models in terms of accuracy and pr
 ## Results
 The cascading approach provided the best results, with low MAE and RMSE, proving the effectiveness of this novel method in wind speed forecasting. The approach is ideal for applications in estimating wind power potential, scheduling turbine maintenance, and improving the overall efficiency of wind farms.
 
+![](https://github.com/NihaalChowdary/Wind-speed-prediction/blob/main/model%20forecast.png)
+
 ## Usage
 1. Clone this repository:
    ```bash
    git clone https://github.com/NihaalChowdary/wind-power-forecasting.git
 
-## Reslts
-![](https://github.com/NihaalChowdary/Wind-speed-prediction/blob/main/model%20forecast.png)
 
