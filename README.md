@@ -8,6 +8,7 @@ This repository contains the code and resources for forecasting wind power poten
 Wind energy is a vital renewable resource, and accurate wind speed predictions are crucial for optimizing wind farm operations. This project introduces a **Cascading Workflow** that enhances prediction accuracy by combining the outputs of different models in a sequence. The cascading approach is compared against traditional methods to demonstrate its superior performance in scheduling turbine maintenance and improving power output predictions.
 
 ## Dataset
+The data has been collected from European data center at 10 meter level.
 The dataset used for this study includes the following meteorological variables:
 - **Temperature**
 - **Soil Temperature**
@@ -18,7 +19,7 @@ The dataset used for this study includes the following meteorological variables:
 - **Wind Speed** (target variable)
 
 ## Approach
-This project leverages a unique **Cascading Approach** where multiple models are applied sequentially, refining predictions at each stage. Both **ANN** and **RNN** models are used in this cascading setup to predict wind speed over a 24-hour lead time. Various case studies were conducted to compare the performance of these models, with a focus on key statistical metrics, such as:
+This project leverages a unique **Cascading Approach** where multiple models are applied sequentially, refining predictions at each stage. Both **ANN** and **RNN** models are used in this cascading setup to predict wind speed over a 3-hour, 6-hour, 12-hour, 24-hour lead time . Various case studies were conducted to compare the performance of these models, with a focus on key statistical metrics, such as:
 - **Mean Absolute Error (MAE)**
 - **Root Mean Square Error (RMSE)**
 - **Index Of Agreement (IOA)**
@@ -32,3 +33,6 @@ The cascading approach provided the best results, with low MAE and RMSE, proving
 1. Clone this repository:
    ```bash
    git clone https://github.com/NihaalChowdary/wind-power-forecasting.git
+
+## Reslts
+
