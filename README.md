@@ -7,6 +7,9 @@ This repository contains the code and resources for forecasting wind power poten
 ## Problem Statement
 Wind energy is a vital renewable resource, and accurate wind speed predictions are crucial for optimizing wind farm operations. This project introduces a **Cascading Workflow** that enhances prediction accuracy by combining the outputs of different models in a sequence. The cascading approach is compared against traditional methods to demonstrate its superior performance in scheduling turbine maintenance and improving power output predictions.
 
+## publication
+[](https://github.com/NihaalChowdary/Wind-speed-prediction/blob/main/Chowdary_2023_J._Phys.__Conf._Ser._2471_012029.pdf)
+
 ## Dataset
 The data has been collected from European data center at 10 meter level.
 The dataset used for this study includes the following meteorological variables:
@@ -36,3 +39,4 @@ The cascading approach provided the best results, with low MAE and RMSE, proving
 
 ## Reslts
 ![](https://github.com/NihaalChowdary/Wind-speed-prediction/blob/main/model%20forecast.png)
+
