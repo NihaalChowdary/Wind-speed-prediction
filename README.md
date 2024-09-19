@@ -35,4 +35,4 @@ The cascading approach provided the best results, with low MAE and RMSE, proving
    git clone https://github.com/NihaalChowdary/wind-power-forecasting.git
 
 ## Reslts
-
+![](https://github.com/NihaalChowdary/Wind-speed-prediction/blob/main/model%20forecast.png)
