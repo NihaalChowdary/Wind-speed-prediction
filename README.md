@@ -1,5 +1,5 @@
 
-# Wind Power Forecasting using ANN and RNN with a Cascading Approach
+# Wind Power Forecasting using ANN and LSTM's with a Cascading Approach
 
 ## Table of Contents
 
